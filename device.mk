@@ -30,8 +30,7 @@ PRODUCT_COPY_FILES += \
 # Overlay
 PRODUCT_PACKAGES += \
     Frameworks-Thor-Overlay \
-    Settings-Thor-Overlay \
-    SettingsProvider-Thor-Overlay
+    Settings-Thor-Overlay
 
 # Recovery
 PRODUCT_PACKAGES += \
