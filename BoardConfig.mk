@@ -8,5 +8,8 @@ include device/ayn/qcs8550-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/ayn/odin2thor
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # Include the proprietary files BoardConfig.
 include vendor/ayn/odin2thor/BoardConfigVendor.mk
