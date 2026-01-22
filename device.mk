@@ -3,6 +3,13 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Overlay
+PRODUCT_PACKAGES += \
+    Frameworks-Thor-Overlay \
+    Settings-Thor-Overlay \
+    SettingsProvider-Thor-Overlay \
+    SystemUI-Thor-Overlay
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
