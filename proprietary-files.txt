@@ -1,0 +1,9 @@
+## All proprietary files from this list, unless pinned and noted otherwise, are
+## from 
+
+# Audio firmware
+vendor/firmware/aw883xx_acf.bin
+
+# Display calibration data
+vendor/etc/display/qdcm_calib_data_ch13726a_video_mode_dsi_boe_panel_with_DSC.json
+vendor/etc/display/qdcm_calib_data_icna3520_amoled_panel_with_DSC.json
