@@ -5,3 +5,6 @@ bluetooth.device.default_name=Thor
 debug.sf.ignore_hwc_physical_display_orientation=true
 ro.surface_flinger.primary_display_orientation=ORIENTATION_90
 ro.surface_flinger.secondary_display_orientation=ORIENTATION_90
+
+# Graphics
+ro.surface_flinger.game_default_frame_rate_override=120
