@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<displayConfiguration>
+    <screenBrightnessMap>
+        <point>
+            <value>0.0</value>
+            <nits>2.0</nits>
+        </point>
+        <point>
+            <value>0.2</value>
+            <nits>84.0</nits>
+        </point>
+        <point>
+            <value>0.4</value>
+            <nits>168.0</nits>
+        </point>
+        <point>
+            <value>0.6</value>
+            <nits>252.0</nits>
+        </point>
+        <point>
+            <value>0.8</value>
+            <nits>336.0</nits>
+        </point>
+        <point>
+            <value>1.0</value>
+            <nits>420.0</nits>
+        </point>
+    </screenBrightnessMap>
+    <densityMapping>
+        <density>
+            <width>1080</width>
+            <height>1920</height>
+            <density>320</density>
+        </density>
+    </densityMapping>
+</displayConfiguration>
