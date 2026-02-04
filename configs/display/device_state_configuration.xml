@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<device-state-config>
+  <device-state>
+    <identifier>0</identifier>
+    <name>DUAL_SCREEN</name>
+  </device-state>
+  <device-state>
+    <identifier>1</identifier>
+    <name>TOP_SCREEN_ONLY</name>
+  </device-state>
+  <device-state>
+    <identifier>2</identifier>
+    <name>BOTTOM_SCREEN_ONLY</name>
+  </device-state>
+</device-state-config>
