@@ -3,6 +3,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1c805ab2_f02192a4",
+        "filename": "overlay/Frameworks-Thor-Overlay/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 29242
+      },
+      "writtenOn": "2026-02-21T22:44:51Z",
+      "side": 1,
+      "message": "Eh maybe this is it actually. Will have to check fwb logic later",
+      "range": {
+        "startLine": 26,
+        "startChar": 16,
+        "endLine": 26,
+        "endChar": 51
+      },
+      "revId": "ea02bffde0b6c8586da04edbb6b34245e126a82e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a5b6b7f1_9ecac8c4",
         "filename": "overlay/SystemUI-Thor-Overlay/res/values/config.xml",
         "patchSetId": 1
