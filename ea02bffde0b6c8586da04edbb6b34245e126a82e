@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a70be825_6a824bb2",
+        "filename": "overlay/Frameworks-Thor-Overlay/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 29242
+      },
+      "writtenOn": "2026-02-25T03:57:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1c805ab2_f02192a4",
+      "range": {
+        "startLine": 26,
+        "startChar": 16,
+        "endLine": 26,
+        "endChar": 51
+      },
+      "revId": "ea02bffde0b6c8586da04edbb6b34245e126a82e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a5b6b7f1_9ecac8c4",
@@ -37,6 +61,30 @@
       "writtenOn": "2026-02-21T22:40:24Z",
       "side": 1,
       "message": "Doze overlays can probably be commonized except for this",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 57
+      },
+      "revId": "ea02bffde0b6c8586da04edbb6b34245e126a82e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bda43125_df97452a",
+        "filename": "overlay/SystemUI-Thor-Overlay/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 29242
+      },
+      "writtenOn": "2026-02-25T03:57:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a5b6b7f1_9ecac8c4",
       "range": {
         "startLine": 7,
         "startChar": 0,
