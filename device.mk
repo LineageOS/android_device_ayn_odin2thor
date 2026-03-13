@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
 # Overlay
 PRODUCT_PACKAGES += \
     Frameworks-Thor-Overlay \
+    LineageSDK-Thor-Overlay \
     Settings-Thor-Overlay \
     SettingsProvider-Thor-Overlay
 
