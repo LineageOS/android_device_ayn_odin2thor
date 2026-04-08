@@ -16,6 +16,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/idc/fts_ts.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/fts_ts.idc \
     $(LOCAL_PATH)/configs/idc/fts_ts_secondary.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/fts_ts_secondary.idc
 
+# MCU
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/mcu/mcuapp_firmware.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/mcuapp_firmware.txt
+
 # Overlay
 PRODUCT_PACKAGES += \
     Frameworks-Thor-Overlay \
