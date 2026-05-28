@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
 # Overlay
 PRODUCT_PACKAGES += \
     Frameworks-Thor-Overlay \
+    Lineage-Platform-Thor-Overlay \
     Settings-Thor-Overlay
 
 # Recovery
