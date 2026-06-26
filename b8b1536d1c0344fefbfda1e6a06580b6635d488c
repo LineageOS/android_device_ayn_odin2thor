@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9987aea3_ff005a02",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15841
+      },
+      "writtenOn": "2026-06-26T06:39:29Z",
+      "side": 1,
+      "message": "bottom screen brightness following top. uses same AOSP functionality as foldables",
+      "revId": "b8b1536d1c0344fefbfda1e6a06580b6635d488c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "85c0da11_4c057914",
+        "filename": "configs/display/display_id_4630946441858561667.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 15841
+      },
+      "writtenOn": "2026-06-26T06:39:29Z",
+      "side": 1,
+      "message": "```suggestion\n\u003cdisplayConfiguration\u003e\n    \u003cscreenBrightnessMap\u003e\n        \u003cpoint\u003e\n            \u003cvalue\u003e0.0\u003c/value\u003e\n            \u003cnits\u003e2.0\u003c/nits\u003e\n        \u003c/point\u003e\n        \u003cpoint\u003e\n            \u003cvalue\u003e0.2\u003c/value\u003e\n            \u003cnits\u003e84.0\u003c/nits\u003e\n        \u003c/point\u003e\n        \u003cpoint\u003e\n            \u003cvalue\u003e0.4\u003c/value\u003e\n            \u003cnits\u003e168.0\u003c/nits\u003e\n        \u003c/point\u003e\n        \u003cpoint\u003e\n            \u003cvalue\u003e0.6\u003c/value\u003e\n            \u003cnits\u003e252.0\u003c/nits\u003e\n        \u003c/point\u003e\n        \u003cpoint\u003e\n            \u003cvalue\u003e0.8\u003c/value\u003e\n            \u003cnits\u003e336.0\u003c/nits\u003e\n        \u003c/point\u003e\n        \u003cpoint\u003e\n            \u003cvalue\u003e1.0\u003c/value\u003e\n            \u003cnits\u003e420.0\u003c/nits\u003e\n        \u003c/point\u003e\n    \u003c/screenBrightnessMap\u003e\n```",
+      "revId": "b8b1536d1c0344fefbfda1e6a06580b6635d488c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "098c61bb_1b880bcc",
+        "filename": "configs/display/display_id_4630946482288158084.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 15841
+      },
+      "writtenOn": "2026-06-26T06:39:29Z",
+      "side": 1,
+      "message": "```suggestion\n\u003cdisplayConfiguration\u003e\n    \u003cscreenBrightnessMap\u003e\n        \u003cpoint\u003e\n            \u003cvalue\u003e0.0\u003c/value\u003e\n            \u003cnits\u003e2.0\u003c/nits\u003e\n        \u003c/point\u003e\n        \u003cpoint\u003e\n            \u003cvalue\u003e0.2\u003c/value\u003e\n            \u003cnits\u003e160.0\u003c/nits\u003e\n        \u003c/point\u003e\n        \u003cpoint\u003e\n            \u003cvalue\u003e0.4\u003c/value\u003e\n            \u003cnits\u003e290.0\u003c/nits\u003e\n        \u003c/point\u003e\n        \u003cpoint\u003e\n            \u003cvalue\u003e0.6\u003c/value\u003e\n            \u003cnits\u003e385.0\u003c/nits\u003e\n        \u003c/point\u003e\n        \u003cpoint\u003e\n            \u003cvalue\u003e0.8\u003c/value\u003e\n            \u003cnits\u003e450.0\u003c/nits\u003e\n        \u003c/point\u003e\n        \u003cpoint\u003e\n            \u003cvalue\u003e1.0\u003c/value\u003e\n            \u003cnits\u003e500.0\u003c/nits\u003e\n        \u003c/point\u003e\n    \u003c/screenBrightnessMap\u003e\n```\n\nAn imperfect brightness map for the bottom screen. Stock drove it linearly from the DualScreenAssistant app. No map with brightness following makes the two screens vary wildly in brightness and lets the bottom screen get so low that it cuts off the backlight.\n\nStock also lets us go down so much dimmer, but AOSP doesn\u0027t allow per-display brightness constraints: https://android.googlesource.com/platform/frameworks/base/+/master/services/core/java/com/android/server/display/DisplayDeviceConfig.java#2020",
+      "revId": "b8b1536d1c0344fefbfda1e6a06580b6635d488c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4b4661ab_829d0397",
+        "filename": "configs/display/display_layout_configuration.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 15841
+      },
+      "writtenOn": "2026-06-26T06:39:29Z",
+      "side": 1,
+      "message": "```suggestion\n      \u003caddress\u003e4630946482288158084\u003c/address\u003e\n      \u003cleadDisplayAddress\u003e4630946441858561667\u003c/leadDisplayAddress\u003e\n```\n\nNeeded for bottom screen brightness following to work (like foldables do)",
+      "revId": "b8b1536d1c0344fefbfda1e6a06580b6635d488c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
