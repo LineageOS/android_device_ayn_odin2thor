@@ -67,6 +67,24 @@
       "message": "```suggestion\n      \u003caddress\u003e4630946482288158084\u003c/address\u003e\n      \u003cleadDisplayAddress\u003e4630946441858561667\u003c/leadDisplayAddress\u003e\n```\n\nNeeded for bottom screen brightness following to work (like foldables do)",
       "revId": "b8b1536d1c0344fefbfda1e6a06580b6635d488c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "82579a89_0981b1ad",
+        "filename": "configs/display/display_layout_configuration.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 29242
+      },
+      "writtenOn": "2026-06-26T08:41:43Z",
+      "side": 1,
+      "message": "Hm. Do you have discord? Might be easier to just add you to our private channel and we can discuss patchsets there.",
+      "parentUuid": "4b4661ab_829d0397",
+      "revId": "b8b1536d1c0344fefbfda1e6a06580b6635d488c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
