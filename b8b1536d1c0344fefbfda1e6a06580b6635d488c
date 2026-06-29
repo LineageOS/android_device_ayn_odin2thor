@@ -35,6 +35,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4eba7cfa_28315977",
+        "filename": "configs/display/display_id_4630946441858561667.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 29242
+      },
+      "writtenOn": "2026-06-29T05:18:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "85c0da11_4c057914",
+      "revId": "b8b1536d1c0344fefbfda1e6a06580b6635d488c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "098c61bb_1b880bcc",
@@ -48,6 +66,24 @@
       "writtenOn": "2026-06-26T06:39:29Z",
       "side": 1,
       "message": "```suggestion\n\u003cdisplayConfiguration\u003e\n    \u003cscreenBrightnessMap\u003e\n        \u003cpoint\u003e\n            \u003cvalue\u003e0.0\u003c/value\u003e\n            \u003cnits\u003e2.0\u003c/nits\u003e\n        \u003c/point\u003e\n        \u003cpoint\u003e\n            \u003cvalue\u003e0.2\u003c/value\u003e\n            \u003cnits\u003e160.0\u003c/nits\u003e\n        \u003c/point\u003e\n        \u003cpoint\u003e\n            \u003cvalue\u003e0.4\u003c/value\u003e\n            \u003cnits\u003e290.0\u003c/nits\u003e\n        \u003c/point\u003e\n        \u003cpoint\u003e\n            \u003cvalue\u003e0.6\u003c/value\u003e\n            \u003cnits\u003e385.0\u003c/nits\u003e\n        \u003c/point\u003e\n        \u003cpoint\u003e\n            \u003cvalue\u003e0.8\u003c/value\u003e\n            \u003cnits\u003e450.0\u003c/nits\u003e\n        \u003c/point\u003e\n        \u003cpoint\u003e\n            \u003cvalue\u003e1.0\u003c/value\u003e\n            \u003cnits\u003e500.0\u003c/nits\u003e\n        \u003c/point\u003e\n    \u003c/screenBrightnessMap\u003e\n```\n\nAn imperfect brightness map for the bottom screen. Stock drove it linearly from the DualScreenAssistant app. No map with brightness following makes the two screens vary wildly in brightness and lets the bottom screen get so low that it cuts off the backlight.\n\nStock also lets us go down so much dimmer, but AOSP doesn\u0027t allow per-display brightness constraints: https://android.googlesource.com/platform/frameworks/base/+/master/services/core/java/com/android/server/display/DisplayDeviceConfig.java#2020",
+      "revId": "b8b1536d1c0344fefbfda1e6a06580b6635d488c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "44813141_76160e05",
+        "filename": "configs/display/display_id_4630946482288158084.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 29242
+      },
+      "writtenOn": "2026-06-29T05:18:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "098c61bb_1b880bcc",
       "revId": "b8b1536d1c0344fefbfda1e6a06580b6635d488c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -83,6 +119,24 @@
       "side": 1,
       "message": "Hm. Do you have discord? Might be easier to just add you to our private channel and we can discuss patchsets there.",
       "parentUuid": "4b4661ab_829d0397",
+      "revId": "b8b1536d1c0344fefbfda1e6a06580b6635d488c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d255b01_0e9917f8",
+        "filename": "configs/display/display_layout_configuration.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 29242
+      },
+      "writtenOn": "2026-06-29T05:18:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "82579a89_0981b1ad",
       "revId": "b8b1536d1c0344fefbfda1e6a06580b6635d488c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
