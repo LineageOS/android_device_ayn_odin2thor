@@ -139,6 +139,24 @@
       "parentUuid": "82579a89_0981b1ad",
       "revId": "b8b1536d1c0344fefbfda1e6a06580b6635d488c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f4d2591c_49a5057e",
+        "filename": "configs/display/display_layout_configuration.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 15841
+      },
+      "writtenOn": "2026-06-30T02:14:22Z",
+      "side": 1,
+      "message": "uff, thought I sent this a couple days ago, my apologies. It\u0027s been many years since I\u0027ve used Gerrit. I do, I\u0027m not in any Android-related discords currently, but my username is \"usareddragon\"\n\nI have done a decent amount of fiddling with the display configurations and trying to avoid the 120fps overclocked bottom screen tearing for the Thor, so hopefully I can share that info",
+      "parentUuid": "82579a89_0981b1ad",
+      "revId": "b8b1536d1c0344fefbfda1e6a06580b6635d488c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
