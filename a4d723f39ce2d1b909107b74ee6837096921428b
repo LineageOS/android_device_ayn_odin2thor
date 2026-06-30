@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "167e8714_eb3d1e83",
+        "filename": "configs/display/display_id_4630946441858561667.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 15841
+      },
+      "writtenOn": "2026-06-30T07:32:12Z",
+      "side": 1,
+      "message": "So this brightness map should be dropped. After doing some more experimentation and digging, I found that without auto-brightness, this is a no-op on this top panel. On the bottom panel, this map is the only way to avoid the follower spline generated in com.android.server.display.DisplayDeviceConfig from reaching 0 brightness and turning the bottom panel off\n\n- The last \u003cvalue\u003e must stay 1.0, or the display config fails to load and system_server bootloops.\n- The \u003cnits\u003e numbers are unused (no sensor), so only the two \u003cvalue\u003e endpoints matter",
+      "revId": "a4d723f39ce2d1b909107b74ee6837096921428b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "daa7c105_e8f93127",
+        "filename": "configs/display/display_id_4630946482288158084.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 15841
+      },
+      "writtenOn": "2026-06-30T07:32:12Z",
+      "side": 1,
+      "message": "```suggestion\n    \u003c!-- This map exists to stop the panel going fully black at low brightness.\n         Without a map the framework lets the brightness reach 0 (screen off).\n         With a map, the low end is pinned to the minimum backlight instead,\n         so the bottom panel always stays lit. --\u003e\n    \u003cscreenBrightnessMap\u003e\n        \u003cpoint\u003e\n            \u003cvalue\u003e0.0\u003c/value\u003e\n            \u003cnits\u003e2.0\u003c/nits\u003e\n        \u003c/point\u003e\n        \u003cpoint\u003e\n            \u003cvalue\u003e1.0\u003c/value\u003e\n            \u003cnits\u003e500.0\u003c/nits\u003e\n        \u003c/point\u003e\n    \u003c/screenBrightnessMap\u003e\n```\n\nThis can be simplified to the 2 point curve above. Any curve shaping is a no-op, and the nits are as well due to the lack of an ambient light sensor, but we need this to anchor the bottom panel and avoid blanking it at lower top display brightnesses\n\nThis\u0027ll probably become irrelevant with independent screen brightness",
+      "revId": "a4d723f39ce2d1b909107b74ee6837096921428b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
