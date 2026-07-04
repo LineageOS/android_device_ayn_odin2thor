@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise, are
-## from Thor.20251120.235628
+## from Thor.20260112.215904
 
 # ADSP firmware
 vendor/firmware/adsp.b00
