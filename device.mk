@@ -29,6 +29,10 @@ PRODUCT_PACKAGES += \
     Settings-Thor-Overlay \
     SettingsProvider-Thor-Overlay
 
+# Recovery
+PRODUCT_PACKAGES += \
+    recovery_rgb
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
