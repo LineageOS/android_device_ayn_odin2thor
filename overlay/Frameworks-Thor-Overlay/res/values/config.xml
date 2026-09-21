@@ -32,4 +32,7 @@
     <!-- Whether the system enables per-display focus. If the system has the input method for each
          display, this value should be true. -->
     <bool name="config_perDisplayFocusEnabled">true</bool>
+
+    <!-- Whether the current device's internal display can host desktop sessions.  -->
+    <bool name="config_canInternalDisplayHostDesktops">false</bool>
 </resources>
