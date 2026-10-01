@@ -8,5 +8,6 @@
     <display
         name="local:4630946482288158084"
         isHomeSupported="true"
+        shouldShowSystemDecors="true"
         shouldShowIme="true" />
 </display-settings>
