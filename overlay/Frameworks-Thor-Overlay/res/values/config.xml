@@ -4,6 +4,19 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
+    <!-- Indicate whether closing the lid causes the device to go to sleep and opening
+         it causes the device to wake up.
+         The default is false. -->
+    <bool name="config_lidControlsSleep">true</bool>
+
+    <!-- Whether the system enables per-display focus. If the system has the input method for each
+         display, this value should be true. -->
+    <bool name="config_perDisplayFocusEnabled">true</bool>
+
+    <!-- When true, local displays that do not contain any of their own content will automatically
+         mirror the content of the default display. -->
+    <bool name="config_localDisplaysMirrorContent">false</bool>
+
     <!-- The default refresh rate for a given device. Change this value to set a higher default
          refresh rate. If the hardware composer on the device supports display modes with a higher
          refresh rate than the default value specified here, the framework may use those higher
@@ -19,17 +32,4 @@
          rates are available from hardware composer. Only has an effect if the value is
          non-zero. -->
     <integer name="config_defaultPeakRefreshRate">120</integer>
-
-    <!-- When true, local displays that do not contain any of their own content will automatically
-         mirror the content of the default display. -->
-    <bool name="config_localDisplaysMirrorContent">false</bool>
-
-    <!-- Indicate whether closing the lid causes the device to go to sleep and opening
-         it causes the device to wake up.
-         The default is false. -->
-    <bool name="config_lidControlsSleep">true</bool>
-
-    <!-- Whether the system enables per-display focus. If the system has the input method for each
-         display, this value should be true. -->
-    <bool name="config_perDisplayFocusEnabled">true</bool>
 </resources>
