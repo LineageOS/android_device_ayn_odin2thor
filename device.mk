@@ -18,10 +18,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display/display_id_4630946482288158084.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946482288158084.xml \
     $(LOCAL_PATH)/configs/display/display_layout_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_layout_configuration.xml
 
-# IDC
+# IDC / Keylayout
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/idc/fts_ts.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/fts_ts.idc \
-    $(LOCAL_PATH)/configs/idc/fts_ts_secondary.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/fts_ts_secondary.idc
+    $(LOCAL_PATH)/configs/idc/fts_ts_secondary.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/fts_ts_secondary.idc \
+    $(LOCAL_PATH)/configs/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl
 
 # MCU
 PRODUCT_COPY_FILES += \
