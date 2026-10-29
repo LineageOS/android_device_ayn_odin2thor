@@ -32,4 +32,10 @@
          rates are available from hardware composer. Only has an effect if the value is
          non-zero. -->
     <integer name="config_defaultPeakRefreshRate">120</integer>
+
+    <!-- When true, the {@link Display#FLAG_PRESENTATION} flag is set to all internal displays.
+         When false, presentations are not allowed on internal displays by default, but vendors can
+         still explicitly override this by explicitly adding the flag to the internal display(s).
+    -->
+    <bool name="config_allowPresentationOnInternalDisplay">true</bool>
 </resources>
