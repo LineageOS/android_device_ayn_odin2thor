@@ -8,5 +8,4 @@
 device.internal = 1
 
 touch.deviceType = touchScreen
-touch.orientation = ORIENTATION_90
 touch.displayId = local:4630946441858561667
