@@ -17,6 +17,10 @@
          mirror the content of the default display. -->
     <bool name="config_localDisplaysMirrorContent">false</bool>
 
+    <!-- Controls whether the nav bar can move from the bottom to the side in landscape.
+         Only applies if the device display is not square. -->
+    <bool name="config_navBarCanMove">false</bool>
+
     <!-- The default refresh rate for a given device. Change this value to set a higher default
          refresh rate. If the hardware composer on the device supports display modes with a higher
          refresh rate than the default value specified here, the framework may use those higher
