@@ -16,6 +16,23 @@
       "message": "Needs verification of whether or not turning the slider all the way down on the bottom display turns the backlight off completely.",
       "revId": "2fda43c0f9270a71e8d34356250def7227b58815",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fa6691ae_ac14c6c1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29242
+      },
+      "writtenOn": "2026-11-20T23:58:51Z",
+      "side": 1,
+      "message": "Nevermind, that issue was addressed elsewhere as a part when this property was introduced.",
+      "revId": "2fda43c0f9270a71e8d34356250def7227b58815",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
