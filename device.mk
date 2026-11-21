@@ -28,6 +28,8 @@ PRODUCT_PACKAGES += \
     Frameworks-Thor-Overlay \
     Settings-Thor-Overlay
 
+$(call inherit-product, hardware/ayn/overlay/dualscreen/dualscreen.mk)
+
 # Recovery
 PRODUCT_PACKAGES += \
     recovery_rgb
